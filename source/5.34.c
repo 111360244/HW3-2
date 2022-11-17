@@ -4,7 +4,7 @@
 int power(int a, int b)
 {
 	int c=1;
-	while (b != 1)
+	while (b >=1)
 	{
 		c*= a;
 		b--;
